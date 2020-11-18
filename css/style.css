@@ -1,65 +1,72 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Roboto Condensed', sans-serif;
-    line-height: 1.6;
-    font-weight: 400;
-    letter-spacing: .05em;
-    color: #151515;
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: #151515;
 }
 
 /* nav  */
 .navbar {
-    border-bottom: 1px solid #76aa6f;
+  border-bottom: 1px solid #76aa6f;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #151515;
-    position: relative;
-    display: inline-block;
-    font-size: 16px;
-    line-height: 1.2;
-    font-weight: 600;
-    letter-spacing: .1em;
-    text-transform: uppercase;
+  color: #151515;
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 .navbar ul li a:hover {
-    color: #76aa6f !important;
+  color: #76aa6f !important;
 }
 
 /* carousel */
 .carousel-item {
-    height: 700px;
+  height: 900px;
 }
 
-.carousel-item .dark-overlary {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 500px;
-    background-color: rgba(0, 0, 0, 0.3);
-}
 .carousel-indicators li {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-    color:lightslategray !important;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  color: lightslategray !important;
 }
 .carousel-image-1 {
-    background: url("../img/carouse-img-1.jpg");
-    background-size: cover;
+  background: url("../img/carouse-img-1.jpg");
+  background-size: cover;
 }
 
 .carousel-image-2 {
-    background: url("../img/carouse-img-2.jpg");
-    background-size: cover;
+  background: url("../img/carouse-img-2.jpg");
+  background-size: cover;
 }
 
 .carousel-image-3 {
-    background: url("../img/carouse-img-3.jpg");
-    background-size: cover;
+  background: url("../img/carouse-img-3.jpg");
+  background-size: cover;
 }
+/* about */
+.msg-main {
+  font-family: "Lobster", cursive;
+  color: #76aa6f;
+}
+.msg-main-secondary {
+    font-size: 50px;
+    color: #151515;
+    font-weight: bold;
+  }
+  #founder-name{
+    font-weight: bold;
+    font-family: "Lobster", cursive;
+  }
+  
