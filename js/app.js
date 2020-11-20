@@ -33,3 +33,6 @@ sr.reveal("#designation", {
   duration: 4000,
   distance: "300px",
 });
+sr.reveal("#recent-product-title", {
+  duration: 3000,
+});

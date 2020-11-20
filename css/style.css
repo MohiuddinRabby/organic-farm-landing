@@ -61,12 +61,17 @@ body {
   color: #76aa6f;
 }
 .msg-main-secondary {
-    font-size: 50px;
-    color: #151515;
-    font-weight: bold;
-  }
-  #founder-name{
-    font-weight: bold;
-    font-family: "Lobster", cursive;
-  }
-  
+  font-size: 50px;
+  color: #151515;
+  font-weight: bold;
+}
+#founder-name {
+  font-weight: bold;
+  font-family: "Lobster", cursive;
+}
+/* our products */
+#recent-product-title {
+  color: #76aa6f;
+  font-weight: bold;
+  font-family: "Lobster", cursive;
+}
