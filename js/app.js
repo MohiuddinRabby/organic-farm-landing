@@ -36,3 +36,15 @@ sr.reveal("#designation", {
 sr.reveal("#recent-product-title", {
   duration: 3000,
 });
+sr.reveal(".product-card-top", {
+  duration: 2500,
+  origin: "top",
+  distance: "300px",
+});
+sr.reveal(".product-card-bottom", {
+  duration: 2500,
+  origin: "bottom",
+  distance: "300px",
+});
+
+
