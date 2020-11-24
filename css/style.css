@@ -169,3 +169,20 @@ img {
 .fa-cart-plus:hover {
   color: #76aa6f;
 }
+/* client-testomonial  */
+#client {
+  background: url("../img/client-bg-3.jpg");
+  min-height: 700px;
+  background-size: cover;
+  width: 100%;
+}
+#client-testomonial-title-main{
+  font-family: "Lobster", cursive;
+  color: #76aa6f;
+  font-size: 35px;
+}
+#client-testomonial-title-secondary{
+  font-size: 50px;
+  color: #151515;
+  font-weight: bold;
+}
